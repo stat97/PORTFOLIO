@@ -437,8 +437,8 @@ html{
     display: flex;
 }
 .contacto .col{
-    width: 50%;
-    padding: 10px;
+    width: 900%;
+    padding: 20px;
     position: relative;
 }
 .contacto .col img{

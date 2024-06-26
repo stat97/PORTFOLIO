@@ -274,7 +274,7 @@
                      </a>
                 </div>
                 <div class="proyecto">
-                    <a href="https://github.com/stat97/js-project">
+                    <a href="https://github.com/stat97/js-projectb">
                     <img src="img/Captura de pantalla 2024-06-13 190657.png" alt="">
                     <div class="overlay">
                         <h3>HubGames</h3>
@@ -291,17 +291,22 @@
             <h2>CONTACTO</h2>
             <div class="fila">
                 <!-- Formulario -->
-                <div class="col">
-                    <input type="text" placeholder="Tú Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                 <form action="https://formsubmit.co/adriolias1997@gmail.com" method="POST">
+                    <div class="col">
+                    <input type="text" name= "nombre" placeholder="Tú Nombre">
+                    <input type="text" name= "número de teléfono" placeholder="Número telefónico">
+                    <input type="text" name= "correo electrónico" placeholder="Dirección de correo">
+                    <input type="text" name= "asunto" placeholder="Tema">
+                    <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
                     <button>
                         Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
                         <span class="overlay"></span>
                     </button>
+                    <input type="hidden" name= "_next" value="http://127.0.0.1:5500/">
+                    <input type="hidden" name= "_captcha" value="false">
                 </div>
+            </form>
+                
                 <div class="col">
                     <img src="img/5075658.png" alt="">
                     
